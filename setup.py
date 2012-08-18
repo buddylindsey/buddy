@@ -9,6 +9,6 @@ setup(
     author_email='percent20@gmail.com',
     url='https://github.com/buddylindsey/buddy',
     license=open("LICENSE").read(),
-    install_requires='boto==2.5.2',
+    install_requires=['boto==2.5.2','geopy'],
     package_data={'buddy': ['static/browserid/*.js']},
 )
