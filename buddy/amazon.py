@@ -1,3 +1,4 @@
+import mimetypes
 from boto.s3.key import Key
 from boto import connect_s3
 from buddy.utils import datetime_string
